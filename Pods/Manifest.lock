@@ -1,0 +1,20 @@
+PODS:
+  - EmptyDataSet-Swift (4.2.0)
+  - OneSignal (2.9.5)
+
+DEPENDENCIES:
+  - EmptyDataSet-Swift (~> 4.2.0)
+  - OneSignal (< 3.0, >= 2.6.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - EmptyDataSet-Swift
+    - OneSignal
+
+SPEC CHECKSUMS:
+  EmptyDataSet-Swift: 1fa0b35f530a35f852ecb2b53564728b0c300aaf
+  OneSignal: ccdeb961882f8668305e5b694e2cb7cb325fc907
+
+PODFILE CHECKSUM: 7e366743319f7a2b04b508092ddd87fafa920064
+
+COCOAPODS: 1.6.1

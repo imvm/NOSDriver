@@ -7,16 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B7958F52262C0CD001D291D /* RequestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7958F42262C0CD001D291D /* RequestTableViewController.swift */; };
+		2B7958F72262C1BC001D291D /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7958F62262C1BC001D291D /* RequestViewController.swift */; };
+		2B7958F92262C2CD001D291D /* ConfigurationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7958F82262C2CD001D291D /* ConfigurationTableViewController.swift */; };
+		2B7958FB2262C46E001D291D /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7958FA2262C46E001D291D /* Storyboarded.swift */; };
+		2B7959032262DB14001D291D /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7959022262DB14001D291D /* NotificationService.swift */; };
+		2B7959072262DB14001D291D /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2B7959002262DB14001D291D /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2B79590F2262FA08001D291D /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79590E2262FA08001D291D /* OnboardingPageViewController.swift */; };
+		2B7959112262FA37001D291D /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7959102262FA37001D291D /* OnboardingViewController.swift */; };
+		2B79591422630BC6001D291D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79591322630BC6001D291D /* MainViewController.swift */; };
+		2B7959162263117D001D291D /* LoginNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7959152263117D001D291D /* LoginNavigationController.swift */; };
+		2B795918226312EB001D291D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B795917226312EB001D291D /* CreateAccountViewController.swift */; };
+		2B79591A226312F9001D291D /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B795919226312F9001D291D /* ResetPasswordViewController.swift */; };
+		2B795FE422636D89001D291D /* NOSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B795FE322636D89001D291D /* NOSService.swift */; };
 		2BB480452262A9F90074E554 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB480442262A9F90074E554 /* AppDelegate.swift */; };
-		2BB480472262A9F90074E554 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB480462262A9F90074E554 /* ViewController.swift */; };
+		2BB480472262A9F90074E554 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB480462262A9F90074E554 /* LoginViewController.swift */; };
 		2BB4804A2262A9F90074E554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB480482262A9F90074E554 /* Main.storyboard */; };
 		2BB4804C2262A9FC0074E554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB4804B2262A9FC0074E554 /* Assets.xcassets */; };
 		2BB4804F2262A9FC0074E554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB4804D2262A9FC0074E554 /* LaunchScreen.storyboard */; };
 		2BB4805A2262A9FC0074E554 /* NOSDriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB480592262A9FC0074E554 /* NOSDriverTests.swift */; };
 		2BB480652262A9FC0074E554 /* NOSDriverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB480642262A9FC0074E554 /* NOSDriverUITests.swift */; };
+		45882239544AE056CF7DF3CF /* Pods_NOSDriverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9BC1E6FE32AD2C409F65CE /* Pods_NOSDriverUITests.framework */; };
+		9302CD2EC191A6158597405C /* Pods_NOSDriverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B24B8D78E97D10B30EBCF0 /* Pods_NOSDriverTests.framework */; };
+		D56DBD7EED6B9EC328CC4A97 /* Pods_NOSDriver_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F552A3E566A2D65C3BD7129 /* Pods_NOSDriver_OneSignalNotificationServiceExtension.framework */; };
+		E5BEA8925DEC2A85755C41F5 /* Pods_NOSDriver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F121F20A2E233F896AC9880 /* Pods_NOSDriver.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2B7959052262DB14001D291D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB480392262A9F90074E554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B7958FF2262DB14001D291D;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
 		2BB480562262A9FC0074E554 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2BB480392262A9F90074E554 /* Project object */;
@@ -33,10 +57,43 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2B79590B2262DB14001D291D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2B7959072262DB14001D291D /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0F121F20A2E233F896AC9880 /* Pods_NOSDriver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NOSDriver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		243FD170338540A585385E00 /* Pods-NOSDriver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOSDriver.release.xcconfig"; path = "Target Support Files/Pods-NOSDriver/Pods-NOSDriver.release.xcconfig"; sourceTree = "<group>"; };
+		24B622D74B7667EEB4ACF6D1 /* Pods-NOSDriverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOSDriverUITests.release.xcconfig"; path = "Target Support Files/Pods-NOSDriverUITests/Pods-NOSDriverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B7958F42262C0CD001D291D /* RequestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RequestTableViewController.swift; path = "New Group/RequestTableViewController.swift"; sourceTree = "<group>"; };
+		2B7958F62262C1BC001D291D /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		2B7958F82262C2CD001D291D /* ConfigurationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationTableViewController.swift; sourceTree = "<group>"; };
+		2B7958FA2262C46E001D291D /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		2B7959002262DB14001D291D /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7959022262DB14001D291D /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		2B7959042262DB14001D291D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B79590C2262DE8A001D291D /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
+		2B79590D2262DEAC001D291D /* NOSDriver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NOSDriver.entitlements; sourceTree = "<group>"; };
+		2B79590E2262FA08001D291D /* OnboardingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OnboardingPageViewController.swift; path = ../OnboardingPageViewController.swift; sourceTree = "<group>"; };
+		2B7959102262FA37001D291D /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		2B79591322630BC6001D291D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2B7959152263117D001D291D /* LoginNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginNavigationController.swift; path = ../LoginNavigationController.swift; sourceTree = "<group>"; };
+		2B795917226312EB001D291D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		2B795919226312F9001D291D /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResetPasswordViewController.swift; path = ../ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		2B795FE322636D89001D291D /* NOSService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOSService.swift; sourceTree = "<group>"; };
 		2BB480412262A9F90074E554 /* NOSDriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NOSDriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB480442262A9F90074E554 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2BB480462262A9F90074E554 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BB480462262A9F90074E554 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2BB480492262A9F90074E554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BB4804B2262A9FC0074E554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BB4804E2262A9FC0074E554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,13 +104,31 @@
 		2BB480602262A9FC0074E554 /* NOSDriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NOSDriverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB480642262A9FC0074E554 /* NOSDriverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOSDriverUITests.swift; sourceTree = "<group>"; };
 		2BB480662262A9FC0074E554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C9BC1E6FE32AD2C409F65CE /* Pods_NOSDriverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NOSDriverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		366A5BD027D43903DCA5725F /* Pods-NOSDriverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOSDriverTests.debug.xcconfig"; path = "Target Support Files/Pods-NOSDriverTests/Pods-NOSDriverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4686E1EAF86C6C168BFD7004 /* Pods-NOSDriverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOSDriverUITests.debug.xcconfig"; path = "Target Support Files/Pods-NOSDriverUITests/Pods-NOSDriverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		47F7443CB1CCADD5B4FF9F1B /* Pods-NOSDriver-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOSDriver-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-NOSDriver-OneSignalNotificationServiceExtension/Pods-NOSDriver-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		699E2FF9C70F1670B1FE3CCD /* Pods-NOSDriver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOSDriver.debug.xcconfig"; path = "Target Support Files/Pods-NOSDriver/Pods-NOSDriver.debug.xcconfig"; sourceTree = "<group>"; };
+		8B160E5320A36BE81B69575A /* Pods-NOSDriverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOSDriverTests.release.xcconfig"; path = "Target Support Files/Pods-NOSDriverTests/Pods-NOSDriverTests.release.xcconfig"; sourceTree = "<group>"; };
+		91B24B8D78E97D10B30EBCF0 /* Pods_NOSDriverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NOSDriverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F552A3E566A2D65C3BD7129 /* Pods_NOSDriver_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NOSDriver_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA0BA72D09F8475885F66E0 /* Pods-NOSDriver-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOSDriver-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-NOSDriver-OneSignalNotificationServiceExtension/Pods-NOSDriver-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2B7958FD2262DB14001D291D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56DBD7EED6B9EC328CC4A97 /* Pods_NOSDriver_OneSignalNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2BB4803E2262A9F90074E554 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5BEA8925DEC2A85755C41F5 /* Pods_NOSDriver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9302CD2EC191A6158597405C /* Pods_NOSDriverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +144,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45882239544AE056CF7DF3CF /* Pods_NOSDriverUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B7959012262DB14001D291D /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2B79590C2262DE8A001D291D /* OneSignalNotificationServiceExtension.entitlements */,
+				2B7959022262DB14001D291D /* NotificationService.swift */,
+				2B7959042262DB14001D291D /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		2B7959122263062F001D291D /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				2B7959102262FA37001D291D /* OnboardingViewController.swift */,
+				2B79590E2262FA08001D291D /* OnboardingPageViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		2B79591B226313C2001D291D /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				2B7959152263117D001D291D /* LoginNavigationController.swift */,
+				2B795917226312EB001D291D /* CreateAccountViewController.swift */,
+				2B795919226312F9001D291D /* ResetPasswordViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		2B79591E2263208A001D291D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2B795FE322636D89001D291D /* NOSService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		2BB480382262A9F90074E554 = {
 			isa = PBXGroup;
 			children = (
 				2BB480432262A9F90074E554 /* NOSDriver */,
 				2BB480582262A9FC0074E554 /* NOSDriverTests */,
 				2BB480632262A9FC0074E554 /* NOSDriverUITests */,
+				2B7959012262DB14001D291D /* OneSignalNotificationServiceExtension */,
 				2BB480422262A9F90074E554 /* Products */,
+				2FA88C085F2C2E67273BAE9C /* Pods */,
+				B5290FE0C993757A5AE6673B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +207,7 @@
 				2BB480412262A9F90074E554 /* NOSDriver.app */,
 				2BB480552262A9FC0074E554 /* NOSDriverTests.xctest */,
 				2BB480602262A9FC0074E554 /* NOSDriverUITests.xctest */,
+				2B7959002262DB14001D291D /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +215,21 @@
 		2BB480432262A9F90074E554 /* NOSDriver */ = {
 			isa = PBXGroup;
 			children = (
+				2B79591E2263208A001D291D /* Network */,
+				2B79590D2262DEAC001D291D /* NOSDriver.entitlements */,
 				2BB480442262A9F90074E554 /* AppDelegate.swift */,
-				2BB480462262A9F90074E554 /* ViewController.swift */,
+				2BB480462262A9F90074E554 /* LoginViewController.swift */,
 				2BB480482262A9F90074E554 /* Main.storyboard */,
+				2B7959122263062F001D291D /* Onboarding */,
 				2BB4804B2262A9FC0074E554 /* Assets.xcassets */,
 				2BB4804D2262A9FC0074E554 /* LaunchScreen.storyboard */,
 				2BB480502262A9FC0074E554 /* Info.plist */,
+				2B7958F42262C0CD001D291D /* RequestTableViewController.swift */,
+				2B7958F62262C1BC001D291D /* RequestViewController.swift */,
+				2B7958F82262C2CD001D291D /* ConfigurationTableViewController.swift */,
+				2B7958FA2262C46E001D291D /* Storyboarded.swift */,
+				2B79591322630BC6001D291D /* MainViewController.swift */,
+				2B79591B226313C2001D291D /* Authentication */,
 			);
 			path = NOSDriver;
 			sourceTree = "<group>";
@@ -125,20 +252,68 @@
 			path = NOSDriverUITests;
 			sourceTree = "<group>";
 		};
+		2FA88C085F2C2E67273BAE9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				699E2FF9C70F1670B1FE3CCD /* Pods-NOSDriver.debug.xcconfig */,
+				243FD170338540A585385E00 /* Pods-NOSDriver.release.xcconfig */,
+				366A5BD027D43903DCA5725F /* Pods-NOSDriverTests.debug.xcconfig */,
+				8B160E5320A36BE81B69575A /* Pods-NOSDriverTests.release.xcconfig */,
+				4686E1EAF86C6C168BFD7004 /* Pods-NOSDriverUITests.debug.xcconfig */,
+				24B622D74B7667EEB4ACF6D1 /* Pods-NOSDriverUITests.release.xcconfig */,
+				47F7443CB1CCADD5B4FF9F1B /* Pods-NOSDriver-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				EEA0BA72D09F8475885F66E0 /* Pods-NOSDriver-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5290FE0C993757A5AE6673B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F121F20A2E233F896AC9880 /* Pods_NOSDriver.framework */,
+				91B24B8D78E97D10B30EBCF0 /* Pods_NOSDriverTests.framework */,
+				2C9BC1E6FE32AD2C409F65CE /* Pods_NOSDriverUITests.framework */,
+				9F552A3E566A2D65C3BD7129 /* Pods_NOSDriver_OneSignalNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2BB480402262A9F90074E554 /* NOSDriver */ = {
+		2B7958FF2262DB14001D291D /* OneSignalNotificationServiceExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BB480692262A9FC0074E554 /* Build configuration list for PBXNativeTarget "NOSDriver" */;
+			buildConfigurationList = 2B7959082262DB14001D291D /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
 			buildPhases = (
-				2BB4803D2262A9F90074E554 /* Sources */,
-				2BB4803E2262A9F90074E554 /* Frameworks */,
-				2BB4803F2262A9F90074E554 /* Resources */,
+				154F9C950E516B63AB964CEF /* [CP] Check Pods Manifest.lock */,
+				2B7958FC2262DB14001D291D /* Sources */,
+				2B7958FD2262DB14001D291D /* Frameworks */,
+				2B7958FE2262DB14001D291D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 2B7959002262DB14001D291D /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2BB480402262A9F90074E554 /* NOSDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB480692262A9FC0074E554 /* Build configuration list for PBXNativeTarget "NOSDriver" */;
+			buildPhases = (
+				8262504DC87022A55D9533B7 /* [CP] Check Pods Manifest.lock */,
+				2BB4803D2262A9F90074E554 /* Sources */,
+				2BB4803E2262A9F90074E554 /* Frameworks */,
+				2BB4803F2262A9F90074E554 /* Resources */,
+				2B79590B2262DB14001D291D /* Embed App Extensions */,
+				85956123EEDA8C064A77AD13 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B7959062262DB14001D291D /* PBXTargetDependency */,
 			);
 			name = NOSDriver;
 			productName = NOSDriver;
@@ -149,6 +324,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BB4806C2262A9FC0074E554 /* Build configuration list for PBXNativeTarget "NOSDriverTests" */;
 			buildPhases = (
+				4772A730E145E9E001A2693E /* [CP] Check Pods Manifest.lock */,
 				2BB480512262A9FC0074E554 /* Sources */,
 				2BB480522262A9FC0074E554 /* Frameworks */,
 				2BB480532262A9FC0074E554 /* Resources */,
@@ -167,6 +343,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BB4806F2262A9FC0074E554 /* Build configuration list for PBXNativeTarget "NOSDriverUITests" */;
 			buildPhases = (
+				AEBB40787CD1CAB6D99CD4BB /* [CP] Check Pods Manifest.lock */,
 				2BB4805C2262A9FC0074E554 /* Sources */,
 				2BB4805D2262A9FC0074E554 /* Frameworks */,
 				2BB4805E2262A9FC0074E554 /* Resources */,
@@ -191,8 +368,24 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Ian Manor";
 				TargetAttributes = {
+					2B7958FF2262DB14001D291D = {
+						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
 					2BB480402262A9F90074E554 = {
 						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					2BB480542262A9FC0074E554 = {
 						CreatedOnToolsVersion = 10.2;
@@ -220,11 +413,19 @@
 				2BB480402262A9F90074E554 /* NOSDriver */,
 				2BB480542262A9FC0074E554 /* NOSDriverTests */,
 				2BB4805F2262A9FC0074E554 /* NOSDriverUITests */,
+				2B7958FF2262DB14001D291D /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2B7958FE2262DB14001D291D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2BB4803F2262A9F90074E554 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,13 +452,145 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		154F9C950E516B63AB964CEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NOSDriver-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4772A730E145E9E001A2693E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NOSDriverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8262504DC87022A55D9533B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NOSDriver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85956123EEDA8C064A77AD13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NOSDriver/Pods-NOSDriver-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EmptyDataSet-Swift/EmptyDataSet_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EmptyDataSet_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NOSDriver/Pods-NOSDriver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEBB40787CD1CAB6D99CD4BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NOSDriverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		2B7958FC2262DB14001D291D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7959032262DB14001D291D /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2BB4803D2262A9F90074E554 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BB480472262A9F90074E554 /* ViewController.swift in Sources */,
+				2BB480472262A9F90074E554 /* LoginViewController.swift in Sources */,
+				2B7959162263117D001D291D /* LoginNavigationController.swift in Sources */,
+				2B7958F92262C2CD001D291D /* ConfigurationTableViewController.swift in Sources */,
+				2B79591A226312F9001D291D /* ResetPasswordViewController.swift in Sources */,
+				2B795918226312EB001D291D /* CreateAccountViewController.swift in Sources */,
+				2B7958F52262C0CD001D291D /* RequestTableViewController.swift in Sources */,
+				2B795FE422636D89001D291D /* NOSService.swift in Sources */,
+				2B7959112262FA37001D291D /* OnboardingViewController.swift in Sources */,
+				2B7958F72262C1BC001D291D /* RequestViewController.swift in Sources */,
 				2BB480452262A9F90074E554 /* AppDelegate.swift in Sources */,
+				2B79591422630BC6001D291D /* MainViewController.swift in Sources */,
+				2B79590F2262FA08001D291D /* OnboardingPageViewController.swift in Sources */,
+				2B7958FB2262C46E001D291D /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +613,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2B7959062262DB14001D291D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B7958FF2262DB14001D291D /* OneSignalNotificationServiceExtension */;
+			targetProxy = 2B7959052262DB14001D291D /* PBXContainerItemProxy */;
+		};
 		2BB480572262A9FC0074E554 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2BB480402262A9F90074E554 /* NOSDriver */;
@@ -312,6 +650,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2B7959092262DB14001D291D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47F7443CB1CCADD5B4FF9F1B /* Pods-NOSDriver-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WDGXAFZJ6;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imvm.NOSDriver.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B79590A2262DB14001D291D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA0BA72D09F8475885F66E0 /* Pods-NOSDriver-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WDGXAFZJ6;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imvm.NOSDriver.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		2BB480672262A9FC0074E554 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -430,8 +808,10 @@
 		};
 		2BB4806A2262A9FC0074E554 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699E2FF9C70F1670B1FE3CCD /* Pods-NOSDriver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NOSDriver/NOSDriver.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4WDGXAFZJ6;
 				INFOPLIST_FILE = NOSDriver/Info.plist;
@@ -448,8 +828,10 @@
 		};
 		2BB4806B2262A9FC0074E554 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 243FD170338540A585385E00 /* Pods-NOSDriver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NOSDriver/NOSDriver.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4WDGXAFZJ6;
 				INFOPLIST_FILE = NOSDriver/Info.plist;
@@ -466,6 +848,7 @@
 		};
 		2BB4806D2262A9FC0074E554 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 366A5BD027D43903DCA5725F /* Pods-NOSDriverTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +870,7 @@
 		};
 		2BB4806E2262A9FC0074E554 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B160E5320A36BE81B69575A /* Pods-NOSDriverTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +892,7 @@
 		};
 		2BB480702262A9FC0074E554 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4686E1EAF86C6C168BFD7004 /* Pods-NOSDriverUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +913,7 @@
 		};
 		2BB480712262A9FC0074E554 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B622D74B7667EEB4ACF6D1 /* Pods-NOSDriverUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -549,6 +935,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2B7959082262DB14001D291D /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7959092262DB14001D291D /* Debug */,
+				2B79590A2262DB14001D291D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2BB4803C2262A9F90074E554 /* Build configuration list for PBXProject "NOSDriver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

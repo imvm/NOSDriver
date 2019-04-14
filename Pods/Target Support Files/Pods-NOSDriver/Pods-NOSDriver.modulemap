@@ -1,0 +1,6 @@
+framework module Pods_NOSDriver {
+  umbrella header "Pods-NOSDriver-umbrella.h"
+
+  export *
+  module * { export * }
+}
